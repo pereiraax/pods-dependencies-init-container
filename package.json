@@ -1,0 +1,36 @@
+{
+  "name": "pods-dependencies-init-container",
+  "version": "1.0.0",
+  "description": "Container to define pods dependencies for other pod as init container.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pereiraax/pods-dependencies-init-container.git"
+  },
+  "keywords": [
+    "kubernetes",
+    "k8s",
+    "multiple",
+    "pod",
+    "dependency",
+    "init",
+    "container",
+    "ordering"
+  ],
+  "author": "Axel Pereira <pereira.axel@outlook.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pereiraax/pods-dependencies-init-container/issues"
+  },
+  "homepage": "https://github.com/pereiraax/pods-dependencies-init-container",
+  "devDependencies": {},
+  "dependencies": {
+    "kubernetes-client": "^6.1.0"
+  }
+}
