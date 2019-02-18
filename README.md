@@ -33,7 +33,7 @@ spec:
   serviceAccountName: {{ .Values.serviceAccount }} #optional
   initContainers:
   - name: pod-dependency
-    image: TO_BE_DEFINED ylonkar/pod-dependency-init-container:1.0
+    image: axelpereira/pods-dependencies-init-container:1.0
     env:
     - name: POD_LABELS
       value: app=nodeapp,name=mongo-1;app=javaapp,name=billing-1
